@@ -1,70 +1,123 @@
-# Getting Started with Create React App
+# Today I Learned 🧠
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-18-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Supabase](https://img.shields.io/badge/Backend-Supabase-green)
+![Netlify](https://img.shields.io/badge/Deployment-Netlify-black)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
 
-## Available Scripts
+A simple full-stack web application where users can share interesting facts with others.
 
-In the project directory, you can run:
+Users can submit new facts, categorize them, and vote on whether a fact is interesting, mind-blowing, or false.
 
-### `npm start`
+This project was built using **React** for the frontend and **Supabase** as the backend database, and deployed on **Netlify**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌐 Live Demo
 
-### `npm test`
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://til-facts-app.netlify.app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## App Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](screenshots/app-preview.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Features
 
-### `npm run eject`
+- Share new facts with a source
+- Categorize facts (Technology, Science, Finance, etc.)
+- Vote on facts
+- Filter facts by category
+- Real-time data stored in Supabase
+- Responsive UI
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Frontend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- JavaScript
+- CSS
+- HTML
 
-## Learn More
+Backend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Supabase (PostgreSQL)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Deployment
 
-### Code Splitting
+- Netlify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📂 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+today-i-learned-app
+│
+├── public
+│ └── index.html
+│
+├── src
+│ ├── App.js
+│ ├── index.js
+│ ├── style.css
+│ └── supabase.js
+│
+├── package.json
+└── README.md
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 💻 Run Locally
 
-### Advanced Configuration
+Clone the project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+git clone https://github.com/YOUR-USERNAME/today-I-learned-app.git
+```
 
-### Deployment
+Go to the project directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+cd today-i-learned-app
+```
 
-### `npm run build` fails to minify
+Install dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm start
+```
+
+The app will run on:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 📚 What I Learned
+
+- Building React components
+- Managing state in React
+- Fetching data from Supabase
+- CRUD operations with a backend database
+- Deploying React apps with Netlify
+- Using Git and GitHub for version control
+
+## 👤 Author
+
+Ashdeep Singh  
+GitHub: https://github.com/Ashdeep71
