@@ -58,6 +58,7 @@ Deployment
 
 ## 📂 Project Structure
 
+```bash
 today-i-learned-app
 │
 ├── public
@@ -71,6 +72,7 @@ today-i-learned-app
 │
 ├── package.json
 └── README.md
+```
 
 ---
 
